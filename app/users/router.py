@@ -13,4 +13,4 @@ async def register_user():
 
 @router.post("/login")
 async def login():
-    return {"reg":"OK"}
+    return {"log":"OK"}
